@@ -83,7 +83,7 @@ The implementation satisfies the project specification's local portfolio definit
 - CI configuration exists under `.github/workflows/ci.yml`.
 - Secrets are runtime-only and ignored by repository rules.
 
-The directory was not initialized as a Git repository at the time of this documentation audit. Therefore the workflow configuration was verified locally, but no GitHub Actions run or repository history is claimed.
+The project is initialized as a Git repository on the `main` branch. The workflow configuration has been verified locally; the public repository's GitHub Actions run should be checked after each push.
 
 ## Quick start
 

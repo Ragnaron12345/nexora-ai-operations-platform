@@ -155,7 +155,7 @@ Run the full CI-equivalent suite again on the final commit before tagging a rele
 - Docker Compose configuration validation;
 - backend and frontend image builds.
 
-CI uses deterministic mock mode and requires no paid AI credential. At the time of the final audit, the project directory was not initialized as a Git repository, so no GitHub Actions run or clean Git history is claimed.
+CI uses deterministic mock mode and requires no paid AI credential. The project is initialized as a Git repository on the `main` branch; verify the corresponding GitHub Actions run after every push.
 
 ## Logging and observability runbook
 
